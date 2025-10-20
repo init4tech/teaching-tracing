@@ -9,7 +9,6 @@
 //! causes a delay of about 50 seconds (10 observations at 5 seconds each). In
 //! addition, the last few spans may never be exported.
 
-
 use metrics_tracing_example::{init_metrics, init_tracing, run_observations};
 use std::{collections::VecDeque, time::Duration};
 use tokio::{select, sync::mpsc};
